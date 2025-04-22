@@ -1,0 +1,364 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(70, 67, 67);
+}
+
+.headerContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 30px auto;
+    width: 100%;
+}
+
+.headerContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 95%;
+    color: rgb(70, 67, 67);
+}
+
+.leftContent {
+    display: flex;
+    gap: 20px;
+    font-size: 14px;
+    align-items: center;
+    justify-content: center;
+    color: rgb(70, 67, 67);
+}
+
+.leftContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rightContent {
+    display: flex;
+    gap: 35px;
+}
+
+.navContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 40px;
+}
+
+.navContent {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    width: 50%;
+}
+
+.bannerContainer {
+    width: 100%;
+    position: relative;
+    margin-top: 40px;
+}
+
+.bannerInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    position: absolute;
+    right: 5%;
+    top: 40%;
+    max-width: 750px;
+}
+
+.bannerInfo h2 {
+    font-family: "Roboto", serif;
+    font-size: 40px;
+    letter-spacing: 3px;
+    font-weight: normal;
+}
+
+.bannerInfo p {
+    font-family: "Inter", serif;
+    font-size: 30px;
+    letter-spacing: 2px;
+}
+
+.bannerInfo button {
+    padding: 15px 30px;
+    margin-top: 50px;
+    background-color: transparent;
+    font-size: 25px;
+    letter-spacing: 2px;
+    cursor: pointer;
+}
+
+.collectionContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+}
+
+.collectInfo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.collectInfo h2 {
+    font-family: "Roboto", serif;
+    font-weight: normal;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.collect {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bgContainer {
+    position: relative;
+    margin-top: 50px;
+    width: 100%;
+    height: 442px;
+    background-image: url("images/homeBg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.bgContainer div {
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    max-width: 475px;
+}
+
+.bgContainer h2 {
+    font-weight: normal;
+    font-family: "Inter", serif;
+    margin-bottom: 20px;
+}
+
+.bgContainer p {
+    font-size: 13px;
+    letter-spacing: 2px;
+    color: rgb(70, 67, 67);
+    margin-bottom: 20px;
+}
+
+.bgContainer button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: rgb(162, 123, 75);
+}
+
+.videoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 60px;
+    width: 100%;
+}
+
+.videoContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 120px;
+    width: 70%;
+}
+
+.videoContent div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.videoContent h2 {
+    font-family: "Inter", serif;
+    font-weight: normal;
+    color: rgb(162, 123, 75);
+    margin-bottom: 20px;
+}
+
+.videoContent p {
+    font-size: 12px;
+    margin-bottom: 20px;
+}
+
+.videoContent button {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    color: rgb(162, 123, 75);
+}
+
+.mainContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 70px;
+}
+
+.mainContainer p {
+    font-family: "Roboto", serif;
+    font-size: 20px;
+    margin-bottom: 70px;
+}
+
+.mainContainer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 40px;
+}
+
+.mainContainer button {
+    background-color: rgb(162, 123, 75);
+    padding: 15px 45px;
+    border: none;
+    color: white;
+}
+
+.footer {
+    background-color: #fff;
+    color: #333;
+    padding: 60px 40px 30px;
+    font-family: 'Inter', sans-serif;
+    border-top: 1px solid #eee;
+    margin-top: 40px;
+    width: 100%;
+}
+
+.footer-top {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    flex-wrap: wrap;
+}
+
+.footer img {
+    width: auto;
+    height: 100px;
+    object-fit: contain;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+    flex-wrap: wrap;
+}
+
+.footer-links h4 {
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+.footer-links ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-links ul li {
+    margin-bottom: 8px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #555;
+    font-size: 14px;
+    transition: color 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: black;
+}
+
+.footer-bottom {
+    margin-top: 50px;
+    border-top: 1px solid #eee;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.legal-links a {
+    margin-right: 20px;
+    font-size: 13px;
+    color: #555;
+    text-decoration: none;
+}
+
+.social-icons a {
+    margin-left: 15px;
+    color: #555;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+.social-icons a:hover {
+    color: black;
+}
+
+.privacy {
+    margin-right: 20px;
+    font-size: 13px;
+    color: #555;
+    text-decoration: none;
+}
+
+
+.fixedButton {
+    position: fixed;
+    right: 1%;
+    bottom: 4%;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 40px;
+    padding: 15px 25px;
+    cursor: pointer;
+}
+
+.fixedButton:hover {
+    background-color: #555;
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0.40, 0.65, 0.85);
+}
+
+
+
