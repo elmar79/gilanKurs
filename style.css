@@ -1,3 +1,5 @@
+@import url('https://db.onlinewebfonts.com/c/623d4dc6008d0cf75ee9c61ed16ac084?family=LatoLatin+Regular');
+
 * {
     margin: 0;
     padding: 0;
@@ -8,11 +10,9 @@ html,
 body {
     width: 100%;
     overflow-x: hidden;
+    font-family: 'LatoLatin Regular', sans-serif;
 }
 
-body {
-    font-family: "Roboto", sans-serif;
-}
 
 a {
     text-decoration: none;
@@ -74,8 +74,13 @@ a {
 
 .bannerContainer {
     width: 100%;
+    height: 1143px;
     position: relative;
     margin-top: 40px;
+    background-image: url(images/gilan.jpeg);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
 }
 
 .bannerInfo {
@@ -91,14 +96,12 @@ a {
 }
 
 .bannerInfo h2 {
-    font-family: "Roboto", serif;
     font-size: 40px;
     letter-spacing: 3px;
     font-weight: normal;
 }
 
 .bannerInfo p {
-    font-family: "Inter", serif;
     font-size: 30px;
     letter-spacing: 2px;
 }
@@ -130,7 +133,6 @@ a {
 }
 
 .collectInfo h2 {
-    font-family: "Roboto", serif;
     font-weight: normal;
     letter-spacing: 4px;
     font-size: 30px;
@@ -162,7 +164,6 @@ a {
 
 .bgContainer h2 {
     font-weight: normal;
-    font-family: "Inter", serif;
     margin-bottom: 20px;
 }
 
@@ -204,7 +205,6 @@ a {
 }
 
 .videoContent h2 {
-    font-family: "Inter", serif;
     font-weight: normal;
     color: rgb(162, 123, 75);
     margin-bottom: 20px;
@@ -231,7 +231,6 @@ a {
 }
 
 .mainContainer p {
-    font-family: "Roboto", serif;
     font-size: 20px;
     margin-bottom: 70px;
 }
@@ -255,7 +254,6 @@ a {
     background-color: #fff;
     color: #333;
     padding: 60px 40px 30px;
-    font-family: 'Inter', sans-serif;
     border-top: 1px solid #eee;
     margin-top: 40px;
     width: 100%;
